@@ -14,7 +14,7 @@
 }
 
 .card-superpuesta img{
-    filter: brightness(30%);
+    filter: brightness(5%);
 }
 
 .card-img-overlay {
@@ -62,7 +62,7 @@
 }
 
 .card:hover{
-    transform: scale(1.01);
+    transform: scale(0.67);
     background-color: rgb(221, 218, 218);
     cursor: pointer;
 }
@@ -118,8 +118,8 @@ footer {
 }
 
 .footer-lista{
-    background-image: linear-gradient(to right, #1a4169,
-    #0a4674, #064e74, #1a5c8a, #085fab); 
+    background-image: linear-gradient(to right, #0e1d2e,
+    #12263b, #183451, #1a4169, #0a4674); 
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
